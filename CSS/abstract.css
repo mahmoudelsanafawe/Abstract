@@ -103,8 +103,12 @@ nav .container .logo span:first-of-type {
 }
 
 @media (max-width: 580px) {
+    nav .container {
+        padding: 0 0; 
+    }
+
     nav .container .logo {
-        width: 120px;
+        width: 110px;
         gap: 5px;
     }
 
@@ -119,9 +123,7 @@ nav .container .logo span:first-of-type {
         align-self: stretch;
     }
 
-    nav .container .buttons button:first-child {
-        margin-bottom: 8px;
-    }
+
 }
 
 nav .container .logo span:first-of-type {
@@ -133,7 +135,7 @@ nav .container .logo span:last-of-type {
 }
 
 nav .container .buttons button {
-    padding: 8px 15px;
+    padding: 1vw 2vw;
     border-radius: 8px;
     color: var(--color3);
 }
